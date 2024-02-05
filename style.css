@@ -1,13 +1,34 @@
+<<<<<<< HEAD
 
 
+=======
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* all */
+>>>>>>> 412c1c9bef75247ee3b01b0faa6d9d07695cebac
 *{
     padding: 0;
     margin: 0;
 }
 
+/* header */
 header{
     background: #096139;
     width: 100%;
     height: 129px;
+<<<<<<< HEAD
     border-bottom: 4px solid #092719;
 }
+=======
+    border-bottom: 3px solid #24704d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title{
+    color: aliceblue;
+}
+>>>>>>> 412c1c9bef75247ee3b01b0faa6d9d07695cebac
