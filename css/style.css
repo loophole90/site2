@@ -65,3 +65,9 @@ footer{
     width: 400px;
     border-radius: 10px;
 }
+
+.text{
+    color: #000000;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
