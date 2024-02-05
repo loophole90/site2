@@ -11,7 +11,6 @@ function adjustPanelFontSize() {
 
     // Apply font size to the panel elements
     panel.style.fontSize = fontSize;
-
 }
 
 // Call the function on page load and window resize
