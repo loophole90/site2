@@ -26,3 +26,8 @@ header{
     color: aliceblue;
 }
 
+/* footer */
+footer{
+    background-color: #202020;
+    height: 100px;
+}
