@@ -71,7 +71,9 @@ footer{
 
 /* panel */
 
-
+.panel{
+    width: 800px;
+}
 
 .text{
     color: #000000;
