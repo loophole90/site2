@@ -45,3 +45,11 @@ footer{
     color:aliceblue;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* div */
+.panel{
+    background-color: #585757;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
