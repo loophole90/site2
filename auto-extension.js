@@ -1,43 +1,19 @@
-// Отримання елементів, які потрібно адаптувати
-const header = document.querySelector('header');
-const panelGroup = document.querySelector('.panel-group');
-const textElements = document.querySelectorAll('.text');
+// Get the panel elements
+const panel = document.getElementById('panel');
 
-// Функція для зміни стилів при адаптації
-function adaptToMobile() {
-    // Отримання ширини вікна перегляду
+
+// Function to adjust font size based on screen width
+function adjustPanelFontSize() {
     const windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
-    // Адаптація для ширини менше 770px
-    if (windowWidth <= 770) {
-        // Зміни стилів для header
-        header.style.height = 'auto';
-        header.style.flexDirection = 'column';
-        header.style.alignItems = 'center';
+    // Define font size based on screen width
+    const fontSize = windowWidth <= 770 ? '14px' : '29px';
 
-        // Зміни стилів для panelGroup
-        panelGroup.style.flexDirection = 'column';
-        panelGroup.style.alignItems = 'center';
+    // Apply font size to the panel elements
+    panel.style.fontSize = fontSize;
 
-        // Зміни стилів для textElements
-        textElements.forEach(textElement => {
-            textElement.style.fontSize = '14px';
-        });
-    } else {
-        // Скидання стилів, якщо ширина більше 770px
-        header.style.height = '129px';
-        header.style.flexDirection = 'row';
-        header.style.alignItems = 'center';
-
-        panelGroup.style.flexDirection = 'row';
-        panelGroup.style.alignItems = 'flex-start';
-
-        textElements.forEach(textElement => {
-            textElement.style.fontSize = '29px';
-        });
-    }
 }
 
-// Викликати функцію при завантаженні та зміні розміру вікна
-window.addEventListener('load', adaptToMobile);
-window.addEventListener('resize', adaptToMobile);
+// Call the function on page load and window resize
+window.addEventListener('load', adjustPanelFontSize);
+window.addEventListener('resize', adjustPanelFontSize);
