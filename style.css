@@ -78,8 +78,8 @@ footer{
 .panel{
     background-color: #e6e6e6;
     border: 4px solid #858585;
-    height: 230px;
-    width: 500px;
+    max-height: 230px;
+    max-width: 500px;
     border-radius: 10px;
 }
 
@@ -92,4 +92,14 @@ footer{
 .panel > p{
     padding-top: 5px;
     padding-left: 10px;
+}
+
+/* media */
+@media (max-width: 768px) {
+    .title {
+        font-size: 1.5rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
+    }
+    .text{
+        font-size: 1rem;
+    }
 }
