@@ -16,7 +16,6 @@
 
 body{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -64,11 +63,7 @@ footer{
 }
 
 .panel{
-    background-color: #e6e6e6;
-    border: 4px solid #858585;
-    max-height: 230px;
-    max-width: 500px;
-    border-radius: 10px;
+    width: 800px;
 }
 
 .text{
