@@ -87,7 +87,7 @@ footer{
     .title {
         font-size: 1.5rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
     }
-    .text{
-        font-size: 1rem;
+    .panel{
+        max-height: 200px;
     }
 }
