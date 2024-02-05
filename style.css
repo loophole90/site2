@@ -43,6 +43,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 5px solid #202020;
 }
 
 .contact{
