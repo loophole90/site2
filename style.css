@@ -1,7 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         font-size: 14px;
     }
