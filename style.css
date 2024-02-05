@@ -62,7 +62,7 @@ footer{
     background-color: #e6e6e6;
     border: 4px solid #858585;
     height: 300px;
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
 }
 
@@ -70,4 +70,9 @@ footer{
     color: #000000;
     font-size: 29px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.panel > p{
+    padding-top: 5px;
+    padding-left: 10px;
 }
