@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 /* all */
-
 *{
     padding: 0;
     margin: 0;
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -46,10 +51,16 @@ footer{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* div */
+/* panel */
+.panel-group{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
 .panel{
-    background-color: #585757;
-    height: 100px;
-    width: 100px;
+    background-color: #858585;
+    height: 300px;
+    width: 400px;
     border-radius: 10px;
 }
