@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background: #0df08a;
+    width: 100%;
+    height: 129px;
+    border-bottom: 3px solid #30b979;
+}
