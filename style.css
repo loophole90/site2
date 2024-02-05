@@ -24,6 +24,7 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body{
@@ -38,7 +39,6 @@ header{
     background: #18ac69;
     width: 100%;
     height: 129px;
-    border-bottom: 3px solid #24704d;
     border-bottom: 4px solid #092719;
     display: flex;
     justify-content: center;
@@ -68,11 +68,6 @@ footer{
 }
 
 /* panel */
-.panel-group{
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-}
 
 .panel{
     width: 800px;
@@ -90,11 +85,3 @@ footer{
 }
 
 /* media */
-@media (max-width: 768px) {
-    .title {
-        font-size: 1.5rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
-    }
-    .panel{
-        max-height: 200px;
-    }
-}
