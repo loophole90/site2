@@ -81,6 +81,9 @@ footer{
         font-size: 1rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
     }
     .panel{
+        width: 90%; /* Уменьшаем ширину панели для экранов шириной до 768 пикселей */
+        margin-left: auto;
+        margin-right: auto;
         max-height: 200px;
     }
     .bg-panel{
@@ -95,10 +98,18 @@ footer{
     }
     footer{
         border-bottom: 5px solid #202020;
+        height: auto;
     }
     header{
         height: 70px;
     }
-			
 
+    .panel > p{
+        font-size: 1.2rem; /* Уменьшаем размер шрифта текста в панели для экранов шириной до 768 пикселей */
+    }
+
+    body{
+        background: #ffffff;
+    }
+			
 }
