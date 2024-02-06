@@ -55,19 +55,7 @@ footer{
     width: 800px;
 }
 
-.text{
-    color: #000000;
-    font-size: 29px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 .panel > p{
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-.bg-panel{
     margin-top: 20px;
     width: 90%;
     background-color: #eeeeee;
@@ -77,6 +65,7 @@ footer{
     border: 10px solid #cecece;
     border-radius: 20px;
     margin-bottom: 66px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* media */
