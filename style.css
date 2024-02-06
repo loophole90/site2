@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(215 215 215);
 }
 
 
@@ -52,20 +53,24 @@ footer{
 
 /* panel */
 .panel{
+    margin-top: 10px;
     width: 800px;
+    margin-bottom: 50px;
 }
 
 .panel > p{
-    margin-top: 20px;
-    width: 90%;
-    background-color: #eeeeee;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #e3e3e38c;
     display: flex;
     justify-content: center;
-    height: 600px;
-    border: 10px solid #cecece;
+    max-height: 500px;
+    border: 3px solid #9c9c9c8c;
     border-radius: 20px;
-    margin-bottom: 66px;
     font-family: 'Roboto', sans-serif;
+    padding: 5px 20px 20px 20px;
+    font-size: 2rem;
+    color: rgb(83 83 83);
 }
 
 /* media */
