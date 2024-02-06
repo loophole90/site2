@@ -71,6 +71,7 @@ footer{
     padding: 5px 20px 20px 20px;
     font-size: 2rem;
     color: rgb(83 83 83);
+    flex-direction: column;
 }
 
 /* media */
