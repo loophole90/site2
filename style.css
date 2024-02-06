@@ -36,7 +36,7 @@ header{
 /* footer */
 footer{
     background-color: #202020;
-    position:relative;
+    position:fixed;
     bottom:0px;
     height:80px;
     width:100%;
@@ -71,7 +71,7 @@ footer{
 /* media */
 @media (max-width: 768px) {
     .title {
-        font-size: 1.5rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
+        font-size: 1rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
     }
     .panel{
         max-height: 200px;
@@ -89,5 +89,9 @@ footer{
     footer{
         border-bottom: 5px solid #202020;
     }
+    header{
+        height: 70px;
+    }
+			
 
 }
