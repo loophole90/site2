@@ -12,7 +12,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(215 215 215);
+    background-color: rgb(255 255 255);
+    background: linear-gradient(to top left, #FFFFFF, #87CEEB);
 }
 
 
@@ -61,7 +62,7 @@ footer{
 .panel > p{
     margin-top: 15px;
     width: 100%;
-    background-color: #e3e3e38c;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     max-height: 500px;
