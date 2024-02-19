@@ -12,8 +12,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(215 215 215);
+    background-color: rgb(255 255 255);
+    background: linear-gradient(to top left, #FFFFFF, #87CEEB);
+    height: 100%;
 }
+
 
 
 /* header */
@@ -34,17 +37,6 @@ header{
     color: aliceblue;
 }
 
-/* footer */
-footer{
-    background-color: #202020;
-    position:fixed;
-    bottom:0px;
-    height:80px;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .contact{
     color:aliceblue;
@@ -55,13 +47,13 @@ footer{
 .panel{
     margin-top: 10px;
     width: 800px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .panel > p{
     margin-top: 15px;
     width: 100%;
-    background-color: #e3e3e38c;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     max-height: 500px;
@@ -80,24 +72,29 @@ footer{
         font-size: 1rem; /* Уменьшаем максимальную ширину для экранов шириной до 768 пикселей */
     }
     .panel{
+        width: 90%; /* Уменьшаем ширину панели для экранов шириной до 768 пикселей */
+        margin-left: auto;
+        margin-right: auto;
         max-height: 200px;
-    }
-    .bg-panel{
-        background: #ffffff;
-        border: #ffffff;
-        padding-bottom: 100px;
-        justify-content: left;
+        
     }
     .text{
         padding-bottom: 100px;
         text-align: left;
     }
-    footer{
-        border-bottom: 5px solid #202020;
-    }
+
     header{
         height: 70px;
     }
-			
 
+    .panel > p{
+        font-size: 1.2rem; /* Уменьшаем размер шрифта текста в панели для экранов шириной до 768 пикселей */
+        width: auto;
+    }
+
+    body{
+        background: #ffffff;
+
+    }
+			
 }
